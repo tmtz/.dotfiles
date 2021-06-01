@@ -1,0 +1,24 @@
+[aws]
+disabled = true
+
+[directory]
+truncate_to_repo = false
+
+[directory.substitutions]
+"~/github" = "github.com"
+
+[gcloud]
+disabled = true
+
+[git_branch]
+symbol = " "
+
+[rust]
+format = "via [⚙️ $version](red bold)"
+
+[nodejs]
+format = "using [$symbol$version]($style) "
+
+[package]
+format = "[$symbol$version]($style) "
+symbol = " "

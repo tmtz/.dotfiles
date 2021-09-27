@@ -121,6 +121,7 @@ let g:latex_fold_sections = []
 " Open hotkeys
 map <C-p> :Files<CR>
 nmap <leader>; :Buffers<CR>
+nmap <leader>f :FZF<CR>
 
 " Quick-save
 nmap <leader>w :w<CR>
@@ -293,6 +294,7 @@ noremap <leader>p :read !xsel --clipboard --output<cr>
 noremap <leader>c :w !xsel -ib<cr><cr>
 
 " <leader>s for Rg search
+"
 noremap <leader>s :Rg
 let g:fzf_layout = { 'down': '~20%' }
 command! -bang -nargs=* Rg
